@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.f9a405c3.chunk.css",
+    "main.js": "/my-resume/static/js/main.f1d1e2b3.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.f1d1e2b3.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.b586985e.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.b586985e.js.map",
+    "static/css/2.d788185a.chunk.css": "/my-resume/static/css/2.d788185a.chunk.css",
+    "static/js/2.fd3d3ff8.chunk.js": "/my-resume/static/js/2.fd3d3ff8.chunk.js",
+    "static/js/2.fd3d3ff8.chunk.js.map": "/my-resume/static/js/2.fd3d3ff8.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "precache-manifest.516bafdc8e5c24a272fed1ef878b0176.js": "/my-resume/precache-manifest.516bafdc8e5c24a272fed1ef878b0176.js",
+    "service-worker.js": "/my-resume/service-worker.js",
+    "static/css/2.d788185a.chunk.css.map": "/my-resume/static/css/2.d788185a.chunk.css.map",
+    "static/css/main.f9a405c3.chunk.css.map": "/my-resume/static/css/main.f9a405c3.chunk.css.map",
+    "static/js/2.fd3d3ff8.chunk.js.LICENSE.txt": "/my-resume/static/js/2.fd3d3ff8.chunk.js.LICENSE.txt",
+    "static/media/app1.png": "/my-resume/static/media/app1.5cb12da0.png",
+    "static/media/app2.png": "/my-resume/static/media/app2.a8f8959d.png",
+    "static/media/avatar.jpeg": "/my-resume/static/media/avatar.3bcda88b.jpeg",
+    "static/media/background.jpeg": "/my-resume/static/media/background.6306fda2.jpeg",
+    "static/media/expertise.png": "/my-resume/static/media/expertise.fd253ae2.png",
+    "static/media/fbnewpng.png": "/my-resume/static/media/fbnewpng.7428c0e4.png",
+    "static/media/linkedin.png": "/my-resume/static/media/linkedin.c077f1d5.png",
+    "static/media/passion1.jpg": "/my-resume/static/media/passion1.8c77dbee.jpg",
+    "static/media/passion2.jpg": "/my-resume/static/media/passion2.55e7f665.jpg",
+    "static/media/passion3.jpg": "/my-resume/static/media/passion3.f70016fc.jpg",
+    "static/media/passions.png": "/my-resume/static/media/passions.8e0dd394.png",
+    "static/media/projects.png": "/my-resume/static/media/projects.1356f850.png",
+    "static/media/services.png": "/my-resume/static/media/services.08182fea.png",
+    "static/media/web1.png": "/my-resume/static/media/web1.b642a666.png",
+    "static/media/web2.png": "/my-resume/static/media/web2.0440fd50.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b586985e.js",
+    "static/css/2.d788185a.chunk.css",
+    "static/js/2.fd3d3ff8.chunk.js",
+    "static/css/main.f9a405c3.chunk.css",
+    "static/js/main.f1d1e2b3.chunk.js"
+  ]
+}
