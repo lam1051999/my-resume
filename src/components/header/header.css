@@ -1,0 +1,54 @@
+.header-container {
+  width: 70%;
+  margin: auto;
+}
+.header-name {
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+  font-family: "Comic Neue", cursive;
+  font-style: italic;
+  padding-left: 1em;
+}
+.header-section {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: white;
+  font-family: "Comic Neue", cursive;
+  font-style: italic;
+  text-align: center;
+  padding: 0.5em;
+}
+.header-section:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(27, 94, 32);
+}
+.header-menu {
+  display: none;
+}
+@media screen and (min-width : 768px) {
+  .header-drawer{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-container {
+    width: 100%;
+  }
+  .header-menu {
+    display: block;
+    font-size: 1.5em;
+    color: white;
+  }
+  .header-nameContainer{
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+  }
+  .header-section {
+    color: rgb(27, 94, 32);
+  }
+  .header-section:hover {
+    background-color: rgb(27, 94, 32);
+    color: white;
+  }
+}

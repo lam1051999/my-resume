@@ -1,0 +1,42 @@
+.description-container {
+  padding: 2em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "PT Sans Caption", sans-serif;
+  position: relative;
+  top: -150px;
+}
+.description-descrip {
+  text-align: center;
+  font-size: 1.2em;
+}
+.description-buttons {
+  text-align: center;
+  margin: auto;
+}
+.description-col {
+  display: flex;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.description-button {
+  padding: 0 2em;
+  font-size: 1.2em;
+  background-color: rgb(0, 182, 102);
+  color: white;
+}
+.description-col.download {
+  justify-content: flex-end;
+}
+.description-button:hover {
+  color: rgb(0, 182, 102);
+}
+@media screen and (max-width: 768px) {
+  .description-col {
+    margin-top: 1em;
+    justify-content: center;
+  }
+  .description-col.download {
+    justify-content: center;
+  }
+}

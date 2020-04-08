@@ -1,0 +1,104 @@
+.passions-container {
+  margin-top: 4em;
+  font-family: "PT Sans Caption", sans-serif;
+  padding: 2em;
+}
+.passions-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passions-titleImage {
+  width: 5em;
+  height: auto;
+}
+.passions-image {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.passions-titleText {
+  font-size: 2.5em;
+  margin-left: 0.3em;
+}
+.passions-images {
+  max-width: 100%;
+  max-height: 100%;
+}
+.passions-row {
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+.passions-passion {
+  position: relative;
+}
+.passions-contentDescription {
+  position: absolute;
+  top: 0;
+  display: flex;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.passions-description {
+  font-family: "Comic Neue", cursive;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  line-height: 1em;
+}
+@media screen and (min-width: 768px) {
+  .passions-description.listen {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    align-self: flex-start;
+  }
+  .passions-description.developer {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    align-self: flex-end;
+    margin-right: 0.5em;
+  }
+  .passions-description.sport {
+    font-size: 1.5em;
+    align-self: flex-start;
+    margin-left: 1em;
+    margin-top: 0.5em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .passions-contentDescription {
+    justify-content: center;
+    align-items: center;
+  }
+  .passions-description.listen {
+    font-size: 2em;
+  }
+  .passions-description.developer {
+    font-size: 2em;
+  }
+  .passions-description.sport {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .passions-contentDescription {
+    justify-content: center;
+    align-items: center;
+  }
+  .passions-description.listen {
+    font-size: 1.3em;
+  }
+  .passions-description.developer {
+    font-size: 1.3em;
+  }
+  .passions-description.sport {
+    font-size: 1.3em;
+  }
+}

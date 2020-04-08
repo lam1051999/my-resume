@@ -1,0 +1,79 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 350px;
+  position: relative;
+  top: -200px;
+  background-color: rgb(0, 182, 102);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-shape1 {
+  background-color: rgb(0, 182, 102);
+  clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0 100%);
+  min-width: 70%;
+  padding: 2em 1.8em;
+}
+.about-intro {
+  margin-bottom: 1em;
+}
+.about-introName {
+  color: white;
+  font-size: 2em;
+  font-family: "PT Sans Caption", sans-serif;
+}
+.about-introDescript {
+  font-size: 1.2em;
+  display: block;
+  color: white;
+  margin-top: -0.5em;
+  font-family: "PT Sans Caption", sans-serif;
+}
+.about-tag {
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
+}
+.about-introTag {
+  font-family: "PT Sans Caption", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: -1em;
+}
+.about-tagIcon{
+  color: white;
+  font-size: 1.3em;
+}
+.about-tagText{
+  margin-left: 0.5em;
+  color : white
+}
+.about-fbicon {
+  width: 3.2em;
+  height: 3.2em;
+  cursor: pointer;
+}
+.about-tticon {
+  width: 2.5em;
+  height: 2.5em;
+  cursor: pointer;
+  margin-left: 0.7em;
+}
+.about-liicon {
+  width: 2.6em;
+  height: 2.6em;
+  cursor: pointer;
+  margin-left: 0.7em;
+}
+.about-shape2 {
+  flex-grow: 1;
+  margin-left: -5%;
+}
+.about-avatar {
+  max-height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .about-avatar {
+    margin-top: 3em;
+  }
+}

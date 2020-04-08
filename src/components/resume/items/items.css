@@ -1,0 +1,36 @@
+.university-container {
+  padding: 1em;
+  border: 1px solid rgba(0, 182, 102, 0.3);
+  border-radius: 1em;
+}
+.university-name {
+  font-size: 1.5em;
+}
+.university-time {
+  color: rgb(0, 182, 102);
+  font-style: italic;
+}
+.university-tagIcon {
+  color: rgb(0, 182, 102);
+  font-size: 1.5em;
+}
+.university-tagText {
+  color: rgb(0, 182, 102);
+  font-size: 1.2em;
+  padding-left: 0.5em;
+}
+.university-description {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+.university-itemTag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .university-itemTag.mobile,
+  .university-itemTag.lab {
+    justify-content: flex-end;
+  }
+}
