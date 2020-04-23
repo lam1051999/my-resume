@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-resume/static/css/main.8483b238.chunk.css",
-    "main.js": "/my-resume/static/js/main.f0fcc5eb.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.f0fcc5eb.chunk.js.map",
+    "main.js": "/my-resume/static/js/main.04b944b4.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.04b944b4.chunk.js.map",
     "runtime-main.js": "/my-resume/static/js/runtime-main.b586985e.js",
     "runtime-main.js.map": "/my-resume/static/js/runtime-main.b586985e.js.map",
     "static/css/2.d788185a.chunk.css": "/my-resume/static/css/2.d788185a.chunk.css",
     "static/js/2.0dd8bf13.chunk.js": "/my-resume/static/js/2.0dd8bf13.chunk.js",
     "static/js/2.0dd8bf13.chunk.js.map": "/my-resume/static/js/2.0dd8bf13.chunk.js.map",
     "index.html": "/my-resume/index.html",
-    "precache-manifest.1e16b7e8af1313f74c8b2176183c17dc.js": "/my-resume/precache-manifest.1e16b7e8af1313f74c8b2176183c17dc.js",
+    "precache-manifest.a4389775ba13737212612e03c5e327f4.js": "/my-resume/precache-manifest.a4389775ba13737212612e03c5e327f4.js",
     "service-worker.js": "/my-resume/service-worker.js",
     "static/css/2.d788185a.chunk.css.map": "/my-resume/static/css/2.d788185a.chunk.css.map",
     "static/css/main.8483b238.chunk.css.map": "/my-resume/static/css/main.8483b238.chunk.css.map",
@@ -21,6 +21,7 @@
     "static/media/expertise.png": "/my-resume/static/media/expertise.fd253ae2.png",
     "static/media/fbnewpng.png": "/my-resume/static/media/fbnewpng.7428c0e4.png",
     "static/media/linkedin.png": "/my-resume/static/media/linkedin.c077f1d5.png",
+    "static/media/newsApp.png": "/my-resume/static/media/newsApp.b4f26c82.png",
     "static/media/passion1.jpg": "/my-resume/static/media/passion1.6d5d6da4.jpg",
     "static/media/passion2.jpg": "/my-resume/static/media/passion2.3387911e.jpg",
     "static/media/passion3.jpg": "/my-resume/static/media/passion3.f70016fc.jpg",
@@ -28,14 +29,13 @@
     "static/media/projects.png": "/my-resume/static/media/projects.1356f850.png",
     "static/media/services.png": "/my-resume/static/media/services.08182fea.png",
     "static/media/web1.png": "/my-resume/static/media/web1.b642a666.png",
-    "static/media/web2.png": "/my-resume/static/media/web2.0440fd50.png",
-    "static/media/web3.png": "/my-resume/static/media/web3.3e0db5d3.png"
+    "static/media/web2.png": "/my-resume/static/media/web2.0440fd50.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b586985e.js",
     "static/css/2.d788185a.chunk.css",
     "static/js/2.0dd8bf13.chunk.js",
     "static/css/main.8483b238.chunk.css",
-    "static/js/main.f0fcc5eb.chunk.js"
+    "static/js/main.04b944b4.chunk.js"
   ]
 }
